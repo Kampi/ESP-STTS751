@@ -1,0 +1,10 @@
+menu "STTS751"
+    menu "Misc"
+        config STTS751_MISC_ERROR_BASE
+            hex "STTS751 driver error base definition"
+            range 0 FFFF
+            default 0x7000
+            help
+                Set the error base for the driver.
+    endmenu
+endmenu

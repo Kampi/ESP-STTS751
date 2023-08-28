@@ -1,0 +1,6 @@
+version: "1.0.0"
+description: STTS751
+url: https://gitlab.server-kampert.de/esp32/libraries/stts751
+dependencies:
+  idf:
+    version: ">=4.0"
